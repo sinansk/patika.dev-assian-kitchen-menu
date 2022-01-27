@@ -131,12 +131,12 @@ const showAllFoods = () => {
   menu.forEach(name => {
     menuDOM.innerHTML += createFood(name)
 });
-}
+};
 
 const showKoreanFoods = () => {
   menuDOM.innerHTML = "";
-  koreaFoods.forEach(element => {
-      menuDOM.innerHTML += createFood(element)
+  koreaFoods.forEach(name => {
+      menuDOM.innerHTML += createFood(name)
 });
 };
 
